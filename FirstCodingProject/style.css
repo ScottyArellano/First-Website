@@ -1,0 +1,145 @@
+/* ||RESET */
+*,
+*::after,
+*::before
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+    
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+input, button, textarea{
+    font:inherit
+}
+/* || VARIABLES */
+
+:root{
+    /*FONTS*/
+    --FS:clamp(1rem, 2.2vh, 1.5rem);
+
+
+
+    /*COLORS*/
+    --BACKGROUND-COLOR:#FDFFFC;
+    --GENERAL-TEXT:#161925;
+    
+}
+/*ULILTIY CLASSES*/
+.nowrap{
+    white-space:nowrap;
+}
+
+
+/*GENERAL STYLES*/
+
+html{
+    scroll-behavior: smooth;
+    font-size:var(--FS);
+    font-family: sans-serif;
+    background: var(--BACKGROUND-COLOR);
+    color: var(--GENERAL-TEXT);
+}
+
+body{
+    min-height: 100vh;
+    justify-content: center;;
+    display:flex;
+    flex-flow: column wrap;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(117, 140, 170);
+}
+
+/*HEADER*/
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 1em;
+
+
+}
+header nav{
+    align-content: flex-end;
+} 
+
+header h2{
+    align-content: flex-start;
+}
+header ul{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    gap:1.5rem;
+}
+header ul li{
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color:black;
+}
+
+/*HERO*/
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    
+}
+
+.hero__h1{
+    padding: .5em;
+
+}
+.hero__p{
+    padding: .5em;
+    width:50%;
+
+
+}
+.hero__img{
+    width: 50%;
+    height: auto;
+
+
+
+}
+/* SURVEY */
+
+.survey{
+    width: 50%;
+    margin: 1em auto;
+    padding-bottom: 5em;;
+    
+   
+}
+.survey__div{
+    padding: .5em;
+}
+
+.survey__age{
+    width:10%;
+}
+.survey__input__text{
+    width: 50%;
+}
+
+input, textarea,select,button{
+    border-radius: 10px;
+}
+textarea{
+    width: 45%;
+    height:auto;
+
+
+}

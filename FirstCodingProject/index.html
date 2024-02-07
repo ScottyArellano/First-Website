@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Debt Free Sign Up</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="header__nav"><a href="index.html">Scotty Arellano Logo</a></h2>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1 class="hero__h1">Are You Ready to Become Debt Free?</h1>
+      <p class="hero__p">Book Your Debt Free Meeting with Scotty Arellano:</p>
+      <img class="hero__img" src="/2L1A9145 copy.jpg"/>
+    </section>
+    
+    <section class="survey">
+    <form class="survey__form" action="" method="post">
+      <div class="survey__div">
+        <label class="survey__label" for="name">Name:</label>
+        <input class="survey__input__text" id="name" name="fullname" type="text" required placeholder="Dave Ramsey"></input>
+      </div>
+      <div class="survey__div">
+        <label class="survey__label" for="email">Email:</label>
+        <input class="survey__input__text" id="email" name="email" type="email" required placeholder="DaveRamsey@DebtFree.com"></input>
+      </div>
+
+      <div class="survey__div">
+        <label class="survey__label" for="age">Age:</label>
+        <input class="survey__age" id="age" name="age" type="number" required min="16" max="120" placeholder="20"></input>
+      </div>
+
+      <div class="survey__div">
+      <label class="survey__label" for="location">What City and State are you Located in?</label>
+      <input class="survey__input__text" type="text" id="location" name="location" placeholder="Midway,UT"></input>
+      </div>
+
+      <div class="survey__div">
+      <label class="survey__label" for ="totalDeb">Amount of Debt</label>
+        <select class="survey__select" id="totalDebt">
+            <option value="lessthan5000">$5,000</option>
+            <option value="10000">$5,000-$10,000</option>
+            <option value="20000">$10,000-$20,000</option>
+            <option value="30000">$20,000-$30,000</option>
+            <option value="40000">$30,000-$50,000</option>
+            <option value="50000">$50,000-$70,000</option>
+            <option value="75000">$75,000-$100,000</option>
+            <option value="100000">$100,000+</option>
+        </select>
+        </div>
+
+        <div class="survey__div">
+          <label class="survey__label">Do You Want To Be Debt Free:</label>
+          <input class="survey__input" type="radio" name="debtFree" id="debtFreeYes" value="yes">
+          <label  class="survey__label" for="debtFree">Yes</label>
+          <input class="survey__input" type="radio" name="debtFree" id="debtFreeNo" value="no">
+          <label class="survey__label" for="debtFree">No</label>
+        </div>
+    
+        <div class="survey__div">
+          <label class="survey__label">Are You Willing To Be On Youtube?</label>
+          <input class="survey__input" type="radio" name="youtube" id="youtubeYes" value="yes">
+          <label class="survey__label" for="youtube">Yes</label>
+          <input class="survey__input" type="radio" name="youtube" id="youtubeNo" value="no">
+          <label class="survey__label" for="youtube">No</label>
+        </div>
+
+        <div class="survey__div">
+          <label class="survey__label"> How Motivated Are You To Be Debt Free out of 10.</label>
+          <input class="survey__input" type="radio" id="motive16" name="motive"  value="1-6">
+          <label class="survey__label" for="motive">1-6</label>
+          <input class="survey__input" type="radio" id="motive78" name="motive" value="7-8">
+          <label class="survey__label" for="motive">7-8</label>
+          <input class="survey__input" type="radio" id="motive910" name="motive"  value="9-10">
+          <label class="survey__label" for ="motive">9-10</label>
+        </div>
+        <div class="survey__div">
+            <label class="survey__label">Anything Else We Should Know</label>
+            <textarea class="survey__textarea" type="textarea" id="comments" name="comments" placeholder="I want to be debt free."></textarea>
+        </div>
+        <div class="survey__div">
+            <button type="submit" id="submit">Submit</button>
+          </div>
+    </form>
+    </section >
+  </body>
+  <footer>
+
+  </footer>
+</html>

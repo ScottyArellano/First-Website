@@ -1,0 +1,60 @@
+** start of undefined **
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1 id="title">1v1 Get Out of Debt Meeting
+    </h1>
+    <p id="description">Below You Can Book a Free One Hour Debt Free Meeting</p>
+    <form id="survey-form">
+      <label id="name-label">Name
+        <input id="name" type="text" required placeholder="Big Daddy"></input>
+      </label>
+      <label id="email-label">Email
+        <input id="email" type="email" required placeholder="Bigdaddy@daddy.com"></input>
+      </label>
+      <label id="number-label">Age
+        <input id="number" type="number" required min="18" max="120" placeholder="20"></input>
+      </label>
+      <label>Amount of Debt
+        <select id="dropdown">
+  <option value="lessthan5000">>5000</option>
+  <option value="10000">5000-10000</option>
+  <option value="20000">10000-20000</option>
+  <option value="30000">20000+</option>
+</select>
+      </label>
+<label>Do you want to be debt free</label>
+       <input type="radio" name="debt_free" value="yes">
+  <label for="debt">Yes</label>
+<input type="radio" name="debt_free"value="no">
+  <label for="debt">No</label>
+<label> How Motivated are you to be debt free?</label>
+ <input type="checkbox" id="motive1"  value="9-10">
+<label for="Motive">9-10</label><br>
+<input type="checkbox" id="motive2" value="7-8">
+<label for="vehicle2">7-8</label><br>
+<input type="checkbox" id="motive3"  value="1-6">
+<label for="vehicle3">1-6</label>
+<label>Additional Comments</label>
+<textarea type="textarea"></textarea>
+<input type="submit" id="submit"></input>
+
+      
+      
+    </form>
+  </body>
+  <footer>
+  </footer>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
